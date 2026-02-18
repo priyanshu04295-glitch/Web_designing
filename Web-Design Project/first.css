@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100;
+    width: 100;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: aquamarine;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    background-color: bisque;
+    height: 70%;
+}
+#logo img{
+    width: 100;
+height: 100;
+object-fit: cover;
+}
+.texts{
+
+    background-color: antiquewhite;
+    margin: 20px;
+}
+.texts:hover{
+    background-color: red;
+}
+#contactdetails{
+    margin-left: 40px;
+    font-weight: lighter;
+
+
+}
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+#try:hover{
+    background-color: rgb(4, 60, 4);
+}
+#fakeheader{
+    height: 10;
+    width: 100;
+    background-color: white;
+
+}
+#page1{
+    height: 90%;
+    width: 100%;
+    background-color: salom;
+}
+#page2{
+    height: 90%;
+    width: 100%;
+}
+#strip{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 200, 0);
+}

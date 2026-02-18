@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu - Developer Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px; 
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white
+        }
+        nav ul li a:hover{
+            color: rgb(153,153,226);
+            font-size: 1.01rem; 
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+ 
+        .firstSection > div{
+            width: 30%
+
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        leftSection .buttons{
+            padding: 23px;
+        }
+        .leftSection .btn{
+            padding:2px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+        .leftSection hr{
+            width:100px;
+        }
+        .rightSection{
+            width: 80%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: rgb(170, 107, 228)
+        }
+        .text-gray{
+            color:grey;
+        }
+
+        #element{
+           color: rgb(170, 107, 228)  
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical
+        {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .image-top{
+            width:23px;
+            position: relative;
+            top: -32px;
+            left:-9px;
+        }
+        .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 25px;
+        }
+        .vertical-desc{
+        position: relative;
+        top: 80px;
+        color: gray;
+        width: 150px;
+        font-size: 15px;
+        }
+        .footer{
+           
+            background-color: #0e0e1a;
+            height: 223px;
+            
+            
+        }
+        .footer{
+             display: flex;
+             padding:23px 122px;
+             justify-content: space-around;
+        }
+        
+        
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+    </style>
+</head> 
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyanshu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Services</a></li>
+                     <li> <a href="/">Projects</a></li>
+                     <li> <a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple"></span>
+                 Priyanshu
+                <div>and I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <hr>
+                <buttons class="btn">Download Resume</buttons>
+                <buttons class="btn">Visit Github</buttons>
+            </div>
+            <div class="rightSection">
+                <img src="a.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                <img class="image-top" src="logo.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer(2025)
+                </div>
+                <div class="vertical-desc">Currently I am learning html along with CSS to make cool websites.</div>
+                </div>
+                
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Priyanshu's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                    <li>Follow</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;priyanshuportfolio.com | All rights reserved
+        </div>
+    </footer>
+     
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Programmer','Web Developer','Web Designer','Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+    
+</body>
+</html>
